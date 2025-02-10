@@ -64,7 +64,8 @@ function UpcomingWebinars() {
             {
               title: webinar.title,
               description: webinar.description,
-              link: "https://google.com",
+              link: `/webinars/${webinar.slug}`,
+              key: webinar.slug,
             }
           ))}
           />
